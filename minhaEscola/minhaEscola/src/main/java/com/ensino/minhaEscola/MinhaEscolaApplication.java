@@ -1,13 +1,13 @@
-package org.generation.blogPessoal;
+package com.ensino.minhaEscola;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlogPessoalApplication {
+public class MinhaEscolaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogPessoalApplication.class, args);
+		SpringApplication.run(MinhaEscolaApplication.class, args);
 	}
 
 }

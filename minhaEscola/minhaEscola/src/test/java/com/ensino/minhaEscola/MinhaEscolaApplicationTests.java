@@ -1,10 +1,10 @@
-package org.generation.blogPessoal;
+package com.ensino.minhaEscola;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogPessoalApplicationTests {
+class MinhaEscolaApplicationTests {
 
 	@Test
 	void contextLoads() {

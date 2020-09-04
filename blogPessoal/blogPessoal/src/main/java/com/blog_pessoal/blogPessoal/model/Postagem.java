@@ -1,4 +1,4 @@
-package org.generation.blogPessoal.model;
+package com.blog_pessoal.blogPessoal.model;
 
 import java.util.Date;
 
@@ -12,7 +12,6 @@ import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-
 @Entity
 @Table(name = "postagem")
 public class Postagem {
@@ -20,15 +19,15 @@ public class Postagem {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-
+	
 	@NotNull
-	@Size(min = 5, max = 100)
+	@Size(min = 3, max = 100)
 	private String titulo;
-
+	
 	@NotNull
-	@Size(min = 10, max = 500)
+	@Size(min = 5, max = 500)
 	private String texto;
-
+	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date date = new java.sql.Date(System.currentTimeMillis());
 
