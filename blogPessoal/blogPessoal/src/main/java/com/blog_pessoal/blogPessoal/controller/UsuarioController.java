@@ -11,26 +11,27 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.blog_pessoal.blogPessoal.model.UserLogin;
 import com.blog_pessoal.blogPessoal.model.Usuario;
+import com.blog_pessoal.blogPessoal.model.UsuarioLogin;
 import com.blog_pessoal.blogPessoal.service.UsuarioService;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/usuarios")
+@CrossOrigin(origins="*", allowedHeaders="*")
 public class UsuarioController {
-	
+
 	@Autowired
 	private UsuarioService usuarioService;
 	
 	@PostMapping("/logar")
-	public ResponseEntity<UserLogin> Autentication(@RequestBody Optional<UserLogin>user){
-		return usuarioService.Logar(user).map(resp -> ResponseEntity.ok(resp))
+	public ResponseEntity<UsuarioLogin> Authentication(@RequestBody Optional<UsuarioLogin> user){
+		return usuarioService.logar(user).map(resp -> ResponseEntity.ok(resp))
 				.orElse(ResponseEntity.status(HttpStatus.UNAUTHORIZED).build());
 	}
-
+	
 	@PostMapping("/cadastrar")
-	public ResponseEntity<Usuario> Post (@RequestBody Usuario usuario){
-		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.CadastrarUsuario(usuario));
+	public ResponseEntity<Usuario> post(@RequestBody Usuario usuario){
+		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.cadastrarUsuario(usuario));
 	}
+	
 }

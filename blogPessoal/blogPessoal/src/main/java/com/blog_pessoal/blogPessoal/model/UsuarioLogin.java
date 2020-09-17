@@ -1,6 +1,6 @@
 package com.blog_pessoal.blogPessoal.model;
 
-public class UserLogin {
+public class UsuarioLogin {
 
 	private String nome;
 	
