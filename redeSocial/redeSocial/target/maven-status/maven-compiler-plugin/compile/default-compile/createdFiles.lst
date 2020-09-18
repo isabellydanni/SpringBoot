@@ -1,0 +1,16 @@
+org\generation\redeSocial\seguranca\UserDetailsImpl.class
+org\generation\redeSocial\config\SwaggerConfig.class
+org\generation\redeSocial\controller\PostagemController.class
+org\generation\redeSocial\repository\UsuarioRepository.class
+org\generation\redeSocial\controller\UsuarioController.class
+org\generation\redeSocial\model\Usuario.class
+org\generation\redeSocial\RedeSocialApplication.class
+org\generation\redeSocial\repository\TemaRepository.class
+org\generation\redeSocial\service\UsuarioService.class
+org\generation\redeSocial\repository\PostagemRepository.class
+org\generation\redeSocial\model\Tema.class
+org\generation\redeSocial\controller\TemaController.class
+org\generation\redeSocial\seguranca\BasicSecurityConfig.class
+org\generation\redeSocial\model\Postagem.class
+org\generation\redeSocial\seguranca\UserDetailsServiceImpl.class
+org\generation\redeSocial\model\UserLogin.class

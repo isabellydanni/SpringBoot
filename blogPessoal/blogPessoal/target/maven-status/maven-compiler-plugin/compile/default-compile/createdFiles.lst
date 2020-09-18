@@ -1,0 +1,16 @@
+com\blog_pessoal\blogPessoal\repository\PostagemRepository.class
+com\blog_pessoal\blogPessoal\seguranca\UserDetailsImpl.class
+com\blog_pessoal\blogPessoal\service\UsuarioService.class
+com\blog_pessoal\blogPessoal\controller\UsuarioController.class
+com\blog_pessoal\blogPessoal\model\Usuario.class
+com\blog_pessoal\blogPessoal\controller\PostagensController.class
+com\blog_pessoal\blogPessoal\seguranca\UserDetailsServiceImpl.class
+com\blog_pessoal\blogPessoal\BlogPessoalApplication.class
+com\blog_pessoal\blogPessoal\model\Postagem.class
+com\blog_pessoal\blogPessoal\model\UsuarioLogin.class
+com\blog_pessoal\blogPessoal\repository\TemaRepository.class
+com\blog_pessoal\blogPessoal\model\Tema.class
+com\blog_pessoal\blogPessoal\controller\TemaController.class
+com\blog_pessoal\blogPessoal\seguranca\BasicSecurityConfig.class
+com\blog_pessoal\blogPessoal\repository\UsuarioRepository.class
+com\blog_pessoal\blogPessoal\config\SwaggerConfig.class
